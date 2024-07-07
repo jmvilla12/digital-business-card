@@ -1,38 +1,152 @@
 .App {
-  text-align: center;
+    width: 383px;
+    height: 852px;
+    margin: 10px auto;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #12121B 0%, #12121B 50%, #363668 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image-container {
+    height: 319px;
+    overflow: hidden;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#photo-info {
+    max-width: 125%;
+    position: absolute;
+    top: -10%;
+    left: -10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+    color: #61DAFB;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px 0px 30px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0px 5px 0px;
+    margin-bottom: 3px;
+}
+
+p {
+    color: #F5F5F5;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#logo-email {
+    width: 24px;
+    height: 24px;
+}
+
+.buttons {
+    display: flex;
+    margin: 10px 30px;
+    justify-content: space-between;
+}
+
+.button-social {
+    width: 145px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-social span {
+    margin-left: 10px;
+}
+
+#button-email {
+    background-color: #F1F3F4;
+    color: #1E1F26;
+    fill: #1E1F26;
+}
+
+#button-email:hover {
+    background-color: #1E1F26;
+    color: #F1F3F4;
+    fill: #F1F3F4;
+    cursor: pointer;
+}
+
+#button-linkedin {
+    background-color: #0077B5;
+    color: white;
+    fill: white;
+}
+
+#button-linkedin:hover {
+    background-color: #F1F3F4;
+    color: #0077B5;
+    fill: #0077B5;
+    cursor: pointer;
+}
+
+.About-me {
+    display: block;
+    color: #F5F5F5;
+    margin: 0px 35px;
+    text-align: justify;
+    word-spacing: .05em;
+}
+
+.Interests {
+    display: block;
+    color: #F5F5F5;
+    margin: 0px 35px 0px 35px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #12121B;
+    color: #DCDCDC;
+    fill: #DCDCDC;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0px 0px 25px 25px;
+    position: relative;
+    bottom: -66px;
+}
+
+.footer-buttons {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.bf1 {
+    fill: #959595;
+}
+
+.bf1:hover {
+    fill: #ffffff;
+    cursor: pointer;
 }
