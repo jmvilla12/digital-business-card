@@ -13,7 +13,7 @@ This is my solution to the Digital Business Card solo project on [Scrimba](https
 
 ### Screenshot
 This is a screenshot of how the project looks.
-![screenshot](/src/assets/screenshot.png)
+![screenshot](./src/assets/screenshot.PNG)
 
 ### Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
