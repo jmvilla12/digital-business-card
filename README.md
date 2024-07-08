@@ -19,8 +19,8 @@ This is a screenshot of how the project looks.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
-You can clone this repository. Then in the project directory, you can run:
+If you want to see the complete project with the complete UX/UI experience, you can clone this repository.
+Then in the project directory, you can run:
 
 ### `npm start`
 
