@@ -7,9 +7,9 @@ This is my solution to the Digital Business Card solo project on [Scrimba](https
 - Build from scratch!
 - Fill in your own information
 - Separate components for:
- - Info (photo, name, buttons, etc.)
- - About
- - Interests
+  - Info (photo, name, buttons, etc.)
+  - About
+  - Interests
 
 ### Screenshot
 This is a screenshot of how the project looks.
